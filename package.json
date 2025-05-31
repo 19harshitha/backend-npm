@@ -11,8 +11,8 @@
     "name": "fcc-learn-npm-package-json",
     "dependencies": {
         "express": "^4.21.2",
-        "nodemon": "^3.1.10"
-        
+        "nodemon": "^3.1.10",
+        "@freeCodeCamp": "^1.2.13"
     },
     "main": "server.js",
     "scripts": {
