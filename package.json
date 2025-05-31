@@ -1,15 +1,25 @@
-{       
-        "author": "Harshitha",
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-	}
+{
+    "author": "Harshitha",
+    "description": "A project explains how to use package.json and core functionalities of npm",
+    "keywords": [
+        "descriptive",
+        "related",
+        "freecodecamp"
+    ],
+    "license":"MIT",
+    "version": "1.2.0",
+    "name": "fcc-learn-npm-package-json",
+    "dependencies": {
+        "express": "^4.21.2",
+        "nodemon": "^3.1.10"
+        
+    },
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+    }
 }
